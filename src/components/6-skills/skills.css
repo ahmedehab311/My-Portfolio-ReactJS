@@ -1,0 +1,31 @@
+.skills .title {
+  margin-bottom: 50px;
+  font-size: 2rem;
+  text-align: center;
+}
+.skills-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.skills img {
+  width: 35px;
+  margin-bottom: 20px;
+  /* margin-left: 40px; */
+}
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  align-items: center;
+  margin-left: 30px;
+}
+.skills span {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.light .skills span{
+color: var(--subtitle);;
+}
